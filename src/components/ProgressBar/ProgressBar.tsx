@@ -1,3 +1,13 @@
+interface ProgressBarProps {
+  currentRound: number;
+  totalRounds: number;
+  countdown: number;
+  roundTime: number;
+  countdownType: "round" | "rest";
+  restTime: number;
+  isPreRound: boolean;
+}
+
 const ProgressBar: React.FC<ProgressBarProps> = ({
   currentRound,
   totalRounds,

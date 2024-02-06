@@ -12,7 +12,7 @@ const ROUND_TIME = 16;
 // Constants for initial state
 const INITIAL_ROUND = 1;
 const INITIAL_IS_RESTING = false;
-const INITIAL_NUMBER_OF_QUADRANTS = "4";
+const INITIAL_NUMBER_OF_QUADRANTS = 4;
 const INITIAL_COUNTDOWN_TYPE = "round";
 // Random intervals
 const INITIAL_MIN_ACTION_SIGNAL = 1200;
