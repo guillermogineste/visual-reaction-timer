@@ -6,9 +6,9 @@ import "./styles.css";
 import { playBeep } from "./utils/playBeep";
 
 // Constants, time in seconds
-const REST_TIME = 10;
+const REST_TIME = 30;
 const NUMBER_OF_ROUNDS = 5;
-const ROUND_TIME = 16;
+const ROUND_TIME = 180;
 // Constants for initial state
 const INITIAL_ROUND = 1;
 const INITIAL_IS_RESTING = false;
